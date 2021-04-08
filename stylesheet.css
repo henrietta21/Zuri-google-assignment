@@ -1,0 +1,112 @@
+*{
+   margin: 0;
+   padding: 0; 
+   box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+img{
+    object-fit: cover;
+}
+a{
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+}
+.top{
+    display: flex;
+    padding:1em .5em;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+.nav{
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+}
+.nav-link{
+    padding: 0em .5em ;
+    cursor: pointer;
+}
+.nav-link:hover,
+.lang-link:hover{
+    text-decoration: underline;
+}
+.top-img{
+    width: 20px;
+}
+.profile-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.main-area{
+    margin: 0 auto auto;
+    padding-top: 5em;
+    width: 80%;
+    text-align: center;
+}
+.search-tab{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    width: 50%;
+    padding: 1em;
+    border-radius: 50px;
+    border: 1px solid grey
+}
+.mic{
+    width: 24px;
+    margin-left: -40px;    
+}
+.search-glass{
+    position: relative;
+    margin-right: -30px;
+}
+.button{
+    margin: 2em 0em;
+}
+.btn{
+    color: black;
+    background-color:whitesmoke;
+    padding: .5em;
+    text-transform: capitalize;
+}
+.lang-nav{
+    display: flex;
+    justify-content: center;
+}
+.lang-list{
+    padding: 0em .5em;
+}
+.lang-link{
+    text-transform: capitalize;
+    padding: .5em;
+    color: blue;
+}
+.bottom{
+    background-color: whitesmoke;
+    justify-self: flex-end;
+}
+.bottom-links{
+    display: flex;
+    justify-content: space-between;
+    border-top: .1px solid grey;
+}
+.bottom-text,
+.bottom-links{
+    padding: 1em;
+}
+.bottom-list{
+    padding-right: 2em;
+}
+.bottom-list:hover{
+    text-decoration: underline;
+}
